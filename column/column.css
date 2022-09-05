@@ -1,0 +1,12 @@
+
+  .column{
+    columns: 4;
+}
+.column img{
+    width: 100%;
+    /* height: 250px; */
+    /* object-fit: contain; */
+    object-fit: cover;
+}
+    
+    
