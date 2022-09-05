@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: 600;
+  
+}
+
+.num {
+    font-size: 14px;
+    text-align: left;
+}
+
+.exprs {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+@font-face {
+    src: url('images/Gabelisa.otf');
+    font-family: 'Gabelisa';
+    font-style: normal;
+}
+
+.bg-main {
+    background-color: #ebe9ac;
+    height: 100%;
+}
+
+.bg {
+    clip-path: polygon(0 0, 80% 0%, 69% 100%, 0 100%);
+
+    background-color: #ffe001;
+    height: 650px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.posi-ab {
+    position: absolute;
+    z-index: 1;
+}
+
+
+.mainmenu-header {
+    line-height: 80px;
+    width: 100%;
+}
+
+.ml-a {
+    margin-left: auto;
+}
+
+.ln {
+    line-height: normal;
+}
+
+.mt-a {
+    margin-top: auto;
+}
+
+.py-3 {
+    padding: 1em 0;
+}
+
+.logo {
+    width: 180px;
+    height: 45px;
+}
+
+.menu-items li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #161616;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+.menu-items li a {
+    padding: 15px;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.posi-re {
+    position: relative;
+}
+
+.tspace {
+    top: 8em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-g1 {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.text-left {
+    text-align: left;
+
+}
+
+.total {
+    font-size: 40px;
+    font-family: Fredericka the Great;
+    font-weight: 100;
+
+}
+
+.text-right {
+    text-align: right;
+
+}
+
+.monhrs {
+    margin-bottom: 27px
+}
+
+
+.hrline {
+
+    display: inline-block;
+    height: 2px;
+    width: 78%;
+    text-align: center;
+    background-color: gray;
+    margin: 20px;
+    border: 0 solid;
+}
+
+.ordr {
+    border: 1px solid;
+    padding: 10px 50px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.ornow {
+    margin: 10px;
+}
+
+
+
+
+.main-header-img {
+    position: absolute;
+    top: 20px;
+    right: -50px;
+    width: 60%;
+}
+
+.leaf {
+    position: absolute;
+    top: 120px;
+    left: 147px;
+    width: 45px;
+    height: 75PX;
+}
+
+
+
+
+
+
+.fontsize {
+    font-size: 50px;
+    font-family: 'Gabelisa';
+    font-weight: 100;
+    margin: 12px;
+}
+
+.dntwait {
+    font-size: 60PX;
+    font-family: Fredericka the Great;
+    font-weight: 100;
+    margin: -5px;
+}
+
+.fonts {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin: 12px;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: Fredericka the Great;
+    font-weight: 100;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.pasta {
+    position: absolute;
+    top: 145px;
+    right: 528px;
+    width: 70px;
+    height: 75PX;
+    transition: all 5s;
+    animation: jump top 3s alternate-reverse infinite;
+
+}
+@keyframes jumptop{
+    to{top: 150px;}
+    from{top: 170px;}
+    }
+.Tomato {
+    position: absolute;
+    bottom: 46px;
+    right: 560px;
+    width: 63px;
+    height: 74PX;
+    animation: jump 3s alternate-reverse infinite;
+    transition: all 5s;
+}
+.Tomato:hover,.pasta:hover{
+    transform: rotate(360deg);
+}
+
+.leaf-1 {
+    position: absolute;
+    bottom: 76px;
+    right: 62px;
+    width: 69px;
+    height: 88PX;
+    animation: jump 3s alternate-reverse infinite;
+}
+
+
+@keyframes jump{
+    to{bottom: 10px;}
+    from{bottom: 30px;}
+    }
+
+.spaghetti {
+    position: absolute;
+    top: 332px;
+    left: -346px;
+
+}
+.my{
+    margin: 5em 0;
+}
+.choen{
+    margin: 0 auto;
+    font-family: Fredericka the Great;
+    font-weight: 100;
+    font-size: 30PX;
+    /* text-align: center; */
+    text-transform: uppercase;
+}
+.lorem {
+    margin: 0 auto;
+    width: 77%;
+    font-size: 13px;
+    color: #5f5f5f;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+   /* width: 696px; */
+   }
+   .box {
+
+   
+    width: 100%;
+    
+    height: 100px;
+    background-color: #e8e6a9;
+  
+}
+.w-100{
+    width: 100%;
+
+}
+.my-12{
+    margin: 12em 0;
+}
+.consct{
+    margin: 10px auto ;
+    font-size: 10px;
+    width: 265px;
+    
+
+}
+
+.button{
+    background-color: #ffe001;
+    /* text-transform: uppercase; */
+    /* font-weight: bold; */
+    padding: 10px 25px;
+    transition: .3s;
+}
+.choose-enjoy{
+    height: 615px;
+}
+.enjoy{
+   
+    font-family: Fredericka the Great;
+    font-weight: 100;
+    font-size: 30PX;
+   
+   
+}
+.active-img{
+    transform: scale(1.2); 
+    position: relative;
+    z-index: 1;
+    filter:brightness(1) !important;
+    top: 10px;
+    
+}
+.upcoming img{
+    filter: brightness(0.5);
+}
+.my-10{
+    margin: 10em 0;
+}
+.pastasec img{
+    width: 90%;
+
+}
+.mar-top{
+    margin-top: 22px;
+}
+.my-1{
+    margin: 2em 0;
+}
+.margin{
+    margin: 7em 0;
+}
+.Book{
+    text-transform: uppercase;
+    font-family: Fredericka the Great;
+    font-weight: 100;
+    font-size: 30PX;
+   
+}
+.text-transf{
+    text-transform: uppercase;
+    
+}
+.justi {
+   text-align: right;
+}
+.table input{
+    margin: 1em 5px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.btn{
+    background-color: #ffe001;
+    text-transform: uppercase;
+    padding: 12px 56px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    
+}
+.mar-0{
+    margin-top: 22px;
+}
+
+.tryit{
+    top: 30px;
+    left: 194px;
+    position: absolute;
+    
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.most{
+    top: 52px;
+    left: 194px;
+    position: absolute;
+    color: white;
+    font-size: 29px;
+    width: 100px;
+    text-transform: uppercase;
+}
+.today{
+    top: 27px;
+    left: 647px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+   
+    text-transform: uppercase;
+}
+.popular{
+    top:50px;
+    left: 647px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    width: 135px;
+    /* font-weight: 100; */
+    text-transform: uppercase;
+}
+.it{
+    top: 217px;
+    left: 647px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+   
+    text-transform: uppercase;  
+}
+.fresh{
+    top:245px;
+    left: 647px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase; 
+}
+.logo2 {
+    position: absolute;
+    width: 180px;
+    height: 45px;
+   top: 120px;
+   
+}
+.ipsum{
+    top: 210px;
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    width: 324px;
+    font-weight: 100;
+}
+.company{
+    top: 414px;
+    position: absolute;
+    color: white;
+    font-size: 10px;
+}
+.location{
+    top: 211px;
+    position: absolute;
+    width: 20px;
+    height: 23px;
+}
+.road{
+    top: 216px;
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    text-align: center;  
+    left: 672px;
+}
+.email{
+    top: 248px;
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    text-align: center;  
+    left: 672px;  
+}  
+.emailimg{
+    top: 245px;
+    position: absolute;
+    width: 23px;
+    height: 17px; 
+}
+.ins{
+    top: 405px;
+    position: absolute;
+    right: 172px;
+
+}
+.facebook{
+    position: absolute;
+    right: 135px;
+    top: 405px;
+}
+.twitter{
+    position: absolute;
+    right: 100px;
+    top: 405px;
+}
+.wp{
+    position: absolute;
+    top: 405px;
+    right: 65px;
+}
+.col-33{
+    width: 100%;
+  }
+  .salad{
+      height: 340px;
+      object-fit: cover;
+  }
+  
+  @media (min-width:576px) {
+    .container {
+      width: 540px;
+    }
+
+    .col-25,.col-33 {
+      width: 50%;
+    }
+
+  }
+
+  @media (min-width:768px) {
+    .container {
+      width: 720px;
+    }
+
+    .col-25,.col-33 {
+      width: 33%;
+    }
+  }
+
+  @media (min-width:992px) {
+    .container {
+      width: 960px;
+    }
+
+    .col-25 {
+      width: 25%;
+    }
+  }
+  .pastasec img{
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+    animation-direction: alternate;
+    
+  }
+  .pastasec p{
+    animation-duration: 3s;
+    animation-name: slidein;
+ 
+    animation-direction: alternate;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+ 
